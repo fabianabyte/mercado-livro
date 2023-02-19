@@ -1,10 +1,5 @@
 package com.mercadolivro.basico
 
-class TesteInicial {
-
-
-}
-
 class Pessoa(var nome : String, var idade : Int){
     override fun toString() : String{
         return "Nome: ${nome}, idade: ${idade}"
